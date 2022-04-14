@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+html,
+body {
+    height: 100%;
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit',
+        sans-serif;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+#content {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#content .card {
+    max-width: 250px;
+    width: 100%;
+    background-color: hsl(216, 50%, 16%);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#content .card .card-image img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+#content .card .card-body {
+    font-size: 18px;
+}
+
+#content .card .card-body p.title-body {
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+}
+
+#content .card .card-body p.title-description {
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+#content .card .card-body .pricing-detail {
+    display: flex;
+    font-weight: 300;
+    font-size: 13px;
+}
+
+#content .card .card-body .pricing-detail .price {
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    margin-right: auto;
+}
+
+#content .card .card-body .pricing-detail .price img.crypto-icon {
+    height: 15px;
+    margin-right: .4rem;
+}
+
+#content .card .card-body .pricing-detail .price p.nft-price {
+    height: 15px;
+    color: hsl(178, 100%, 50%);
+}
+
+#content .card .card-body .pricing-detail .offer {
+    display: flex;
+    align-items: center;
+    font-weight: 300;
+    margin-left: auto;
+}
+
+#content .card .card-body .pricing-detail .offer img.clock-icon {
+    height: 15px;
+    margin-right: .4rem;
+}
+
+#content .card .card-body .pricing-detail .offer p.offer-time {
+    height: 15px;
+    color: hsl(215, 51%, 70%);
+}
+
+#content .card .card-body hr.break-line {
+    height: 1px;
+    background-color: hsl(215, 32%, 27%);
+    border: none;
+}
+
+#content .card .card-body .user {
+    display: flex;
+    align-items: center;
+    font-weight: 300;
+}
+
+#content .card .card-body .user img.user-avatar {
+    height: 25px;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+}
+
+#content .card .card-body .user span.created-by {
+    color: hsl(215, 51%, 70%);
+}
+
+#content .card .card-body .user p.user-name {
+    margin-left: 15px;
+    color: hsl(0, 0%, 100%);
+    font-size: 15px;
+}
